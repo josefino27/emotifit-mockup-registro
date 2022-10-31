@@ -1,0 +1,153 @@
+.logindesign{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    height: 100vh;
+}
+
+.login{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.waves{
+background-size: cover;
+background-position: center;
+}
+
+
+ body{
+    font-family: 'Dosis', sans-serif;
+    background: rgb(0, 0, 0);
+ }
+ .login-data{
+     text-align: center;
+     width: 100%;
+     line-height: 1px;
+    }
+ .login-data img{
+position: relative;
+width: 500px;
+height: 250px;
+right: 120px;
+}
+/* crearCuenta.html */
+#titulo{
+    font-size: 80px;
+    font-family: fantasy;
+    color: rgb(113, 255, 100);    
+}
+ .login-data {
+     font-weight: 200;
+     color: aqua;
+
+ }
+
+ .input-group{
+     position: relative;
+     width: 80%;
+     margin: 0 auto;
+     margin-bottom: 10px;
+     
+ }
+ .radio-group{
+    position: relative;
+    width: 82%;
+    left: 130px;
+    margin-bottom: 20px; 
+    border-bottom: 3px solid aqua;
+    line-height: 2rem;
+    text-align: left;
+ }
+ .input-field input{
+border-bottom: 3px solid rgb(6, 247, 247);
+width: 40%;
+height: 1.5rem;
+font-size: 16pt;
+font-family: monospace;
+
+ }
+
+ .input-field input:focus{
+     outline: none;
+     border-color: rgb(90, 255, 90);
+ }
+ .input-field input:hover{
+    background-color: rgba(0, 253, 253, 0.24);  
+}
+
+.input-field input:focus + .input-label {
+    top: 0;
+}
+.input-field input:focus{
+    color: rgb(21, 255, 0);
+}
+
+ .input-field .input-label{
+     position: absolute;
+     top: 1px;
+     left: 0px;
+     transition: top 0.2s;
+     font-weight: 200;
+     font-size: 16pt;
+ }
+
+ .radio-label{
+    color: rgb(0, 247, 255);
+    position: relative;
+    line-height: 1px;
+    font-size: 22px;
+ }  
+ 
+ .login-form a{
+    display: block;
+    width: 85%;
+    text-align: right;
+    text-decoration: none;
+    color: aqua;
+    margin-bottom: 1.3rem;
+    transition: .3s ease-in-out all;
+    font-size: 18px;
+ }
+ .login-form a:hover{
+     color:rgb(0, 255, 0)
+ }
+ .btn-login{
+     border-radius: 3rem;
+     width: 45%;
+     border: 1px solid aqua;
+     line-height: 2rem;
+     font-size: 1.5rem;
+     background-color: rgb(255, 255, 255);
+     color: rgb(11, 250, 250);
+    font-weight: 700;
+ }
+ .btn-login:hover{
+cursor: pointer;
+color: rgb(255, 255, 255);
+background-color: rgb(4, 247, 247);
+
+ }
+
+
+.input-radio{
+    left: 20px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color: aqua;
+
+}
+
+.input-radio:hover{
+    color: rgb(3, 250, 3);
+}
+
+
+
+
+
